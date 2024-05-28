@@ -12,7 +12,7 @@ theme-color: indigo # indigo|yellow|pink|green|stone|
 # homepage information
 author: Derek Yu
 author-bio: Northwestern 2024  # change to false to hide
-author-image: 279.png  # file must be in the /assets/img/ folder
+author-image: bean.jpg  # file must be in the /assets/img/ folder
 
 # navigation menu
 show-nav-menu: true
