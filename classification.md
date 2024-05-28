@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: What is Image Classification?
 permalink: classification
 ---
