@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What is Image Classification?
-permalink: classifcation
+permalink: classification
 ---
 
 > Satoshi Nakamoto is the name used by the presumed pseudonymous person or persons who developed bitcoin, authored the bitcoin white paper, and created and deployed bitcoin's original reference implementation. - Wikipedia
