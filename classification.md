@@ -114,7 +114,9 @@ This is very beneficial when we want to compute probabilities as it maps values 
 
 Gradient descent is an optimization algorithm used in training neural networks. The algorithm works by finding the gradient of the loss function at the current position. The gradient tells us the direction and rate of change with respect to each model variable. By following the negative direction we can move further down the loss function to minimize the difference between our predicted and actual values. We can continue doing this until our loss value is low enough that we are making accurate predictions. One important factor to consider is our learning rate. The learning rate acts as a coefficient to determine how much we want to update our values by, how large of a ‘step’ to take. A learning rate that is too small may cause our algorithm to take too long to train our data. A learning rate too large may cause us to overshoot our goal.
 
-<div id="carouselExample" class="carousel slide relative" data-bs-ride="carousel">
+## Carousel
+
+<div id="carouselExample2" class="carousel slide relative" data-bs-ride="carousel">
   <div class="carousel-inner relative w-full overflow-hidden">
     <div class="carousel-item active float-left w-full">
       <img src="{{site.baseurl}}/assets/img/loss.jpeg" class="block w-full" alt="First Slide">
