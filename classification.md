@@ -34,7 +34,6 @@ permalink: classification
 
 ## Profile Image
 
-The following profile image is my first NFT avatar.
 <img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/bean.jpg">
 
 ## Intro
@@ -114,6 +113,52 @@ This is very beneficial when we want to compute probabilities as it maps values 
 ### Gradient Descent and Learning Rate
 
 Gradient descent is an optimization algorithm used in training neural networks. The algorithm works by finding the gradient of the loss function at the current position. The gradient tells us the direction and rate of change with respect to each model variable. By following the negative direction we can move further down the loss function to minimize the difference between our predicted and actual values. We can continue doing this until our loss value is low enough that we are making accurate predictions. One important factor to consider is our learning rate. The learning rate acts as a coefficient to determine how much we want to update our values by, how large of a ‘step’ to take. A learning rate that is too small may cause our algorithm to take too long to train our data. A learning rate too large may cause us to overshoot our goal.
+
+<div id="carouselExample" class="carousel slide relative" data-bs-ride="carousel">
+  <div class="carousel-inner relative w-full overflow-hidden">
+    <div class="carousel-item active float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/loss.jpeg" class="block w-full" alt="First Slide">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/slow1.jpeg" class="block w-full" alt="Second Slide">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/slow2.jpeg" class="block w-full" alt="Third Slide">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/slow3.jpeg" class="block w-full" alt="Third Slide">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/slow4.jpeg" class="block w-full" alt="Third Slide">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/slow5.jpeg" class="block w-full" alt="Third Slide">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/slow6.jpeg" class="block w-full" alt="Third Slide">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/slow7.jpeg" class="block w-full" alt="Third Slide">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/slow8.jpeg" class="block w-full" alt="Third Slide">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/slow9.jpeg" class="block w-full" alt="Third Slide">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/slow10.jpeg" class="block w-full" alt="Third Slide">
+    </div>
+  </div>
+  <button class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
 ## Convolutional Filters
 
