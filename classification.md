@@ -199,8 +199,9 @@ While CNNs are very powerful tools, they also exhibit some vulnerabilities that 
 One notable and well known example of this includes an image of a panda. The CNN predicts that it is a panda with over 50% confidence. However, another image that looks the exact same is misclassified by the CNN to be a gibbon with over 99% confidence. This example highlights the vulnerability that minute changes to an image can have major effects on the predictions of a neural network.
 
 <img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/panda.jpeg">
+
 <center>
-**Figure 1**: Panda adversarial example. [OpenAI]([https://www.apple.com/](https://openai.com/index/attacking-machine-learning-with-adversarial-examples/))
+<strong>Figure 1: </strong> Panda adversarial example. <a href="https://openai.com/index/attacking-machine-learning-with-adversarial-examples/">-OpenAI</a>
 </center>
 
 
