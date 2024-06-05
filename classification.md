@@ -198,7 +198,11 @@ While CNNs are very powerful tools, they also exhibit some vulnerabilities that 
 
 One notable and well known example of this includes an image of a panda. The CNN predicts that it is a panda with over 50% confidence. However, another image that looks the exact same is misclassified by the CNN to be a gibbon with over 99% confidence. This example highlights the vulnerability that minute changes to an image can have major effects on the predictions of a neural network.
 
+<img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/panda.jpeg">
+
 While misclassifying an image of a panda may not be that big of a problem, similar examples have more significant impacts. One such example includes a stop sign that had a small sticker on it that was misclassified to be a speed limit sign. Misclassification and other vulnerabilities in these Convolutional Neural Network systems have the potential to be disastrous if not resolved. With image classification being used in autonomous vehicles, medical imaging, security, and many more fields, it is vital that computer scientists find a way to mitigate these problems.
+
+<img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/stopsign.jpeg">
 
 ## Ethical Concerns
 
