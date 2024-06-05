@@ -4,9 +4,7 @@ title: What is Image Classification?
 permalink: classification
 ---
 
-> Satoshi Nakamoto is the name used by the presumed pseudonymous person or persons who developed bitcoin, authored the bitcoin...
-
-## Carousel
+## Test Delete Later
 
 <div id="carouselExample" class="carousel slide relative" data-bs-ride="carousel">
   <div class="carousel-inner relative w-full overflow-hidden">
