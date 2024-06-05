@@ -3,7 +3,7 @@ layout: page
 title: What is Image Classification?
 permalink: classification
 ---
-# Table of Contents
+## Table of Contents
 
 - [Intro](#intro)
 - [Neural Networks](#neural-networks)
