@@ -49,7 +49,7 @@ In order to determine whether or not a neural network is making accurate predict
 
 The equation can be represented as:
 
-\[ \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 \]
+<img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/mse.jpeg">
 
 where \( n \) represents the total number of data points, \( y \) represents the actual observed value, and \( \hat{y} \) is our prediction from the model.
 
@@ -57,7 +57,7 @@ where \( n \) represents the total number of data points, \( y \) represents the
 
 The equation for BCE is:
 
-\[ \text{BCE} = - \frac{1}{N} \sum_{i=1}^{N} \left( y_i \log(\hat{y}_i) + (1-y_i) \log(1-\hat{y}_i) \right) \]
+<img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/bce.jpeg">
 
 where \( N \) is the number of observations, \( i \) is the \( i \)-th observation, \( \hat{y}_i \) is the predicted probability of the observation being positive (on a scale of 0-1), and \( y_i \) is the actual label.
 
@@ -75,11 +75,13 @@ Between each hidden layer, there is usually something called an “activation fu
 
 **Sigmoid**: The sigmoid function maps inputs to values between 0 and 1 using the following equation:
 
-\[ \sigma(x) = \frac{1}{1 + e^{-x}} \]
+<img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/sigmoid.jpeg">
 
 This is very beneficial when we want to compute probabilities as it maps values that may not be interpretable to something that lies with a valid probability.
 
-**Rectified Linear Unit (ReLU)**: ReLU is another very common activation function used in neural networks. ReLU is applied with the equation \( f(x) = \max(0, x) \). The simplicity of the function comes with both benefits and drawbacks. The main con is that it may lose information due to clipping off negative values. However, it introduces nonlinearities, is computationally effective, running much faster than most alternatives, and does not suffer from the ‘vanishing gradient’ problem.
+**Rectified Linear Unit (ReLU)**: ReLU is another very common activation function used in neural networks. ReLU is applied with the equation 
+<img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/relu.jpeg">
+The simplicity of the function comes with both benefits and drawbacks. The main con is that it may lose information due to clipping off negative values. However, it introduces nonlinearities, is computationally effective, running much faster than most alternatives, and does not suffer from the ‘vanishing gradient’ problem.
 
 ### Gradient Descent and Learning Rate
 
