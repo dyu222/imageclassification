@@ -51,7 +51,7 @@ The equation can be represented as:
 
 <img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/mse.jpeg">
 
-where \( n \) represents the total number of data points, \( y \) represents the actual observed value, and \( \hat{y} \) is our prediction from the model.
+where N represents the total number of data points, y_i represents the actual observed value, and yhat_i is our prediction from the model.
 
 **Binary Cross Entropy**: Cross Entropy loss is a common loss function used specifically for classification problems. Binary Cross Entropy (BCE) is a simplified version when dealing with binary classification problems. This binary represents that there are only two options: yes/no, on/off, positive/negative test result, dog/cat, etc. When dealing with binary classification problems, we assign one of the labels with 1 (usually the ‘positive’ value) and the other with a 0.
 
