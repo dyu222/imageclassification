@@ -19,6 +19,12 @@ permalink: classification
     <div class="carousel-item float-left w-full">
       <img src="{{site.baseurl}}/assets/img/slow2.jpeg" class="block w-full" alt="Third Slide">
     </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/slow3.jpeg" class="block w-full" alt="Fourth Slide">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/slow4.jpeg" class="block w-full" alt="Fifth Slide">
+    </div>
   </div>
   <button class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
     <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
