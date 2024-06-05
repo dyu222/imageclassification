@@ -178,7 +178,7 @@ Gradient descent is an optimization algorithm used in training neural networks. 
 
 ## Convolutional Filters
 
-So now that you know about neural networks you may still be wondering how these things allow computers to process image data. They do it with something called convolutional filters. A convolutional filter is a small matrix of values that is used to slide over images to identify specific patterns. This is made possible by representing an image as a matrix of values that represent each pixel as RGB or grayscale values. Convolutional filters serve two main roles. Different filters are able to detect different patterns which represent certain features such as edges, textures, or certain shapes in the image.
+So now that you know about neural networks you may still be wondering how these things allow computers to process image data. They do it with something called convolutional filters. A convolutional filter is a small matrix of values that is used to slide over images to identify specific patterns. This is made possible by representing an image as a matrix of values that represent each pixel as RGB or grayscale values. Different filters are able to detect different patterns which represent certain features such as edges, textures, or certain shapes in the image.
 
 When the filter “slides” across the image, it performs a function called a convolution, which in essence is a matrix multiplication and then taking the sum of the values similar to a dot product. As the filter makes its way through the entire image matrix, it creates a new matrix known as a feature map. This feature map represents the locations in the image where the patterns or features are detected.
 
