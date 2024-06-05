@@ -6,6 +6,12 @@ permalink: classification
 # Table of Contents
 
 - [Intro](#intro)
+- [Neural Networks](#neural-networks)
+- [Mathematics of Neural Networks](#mathematics-of-neural-networks)
+- [Convolutional Filters](#convolutional-filters)
+- [Convolutional Neural Networks](#convolutional-neural-networks)
+- [Adversarial Examples](#adversarial-examples)
+- [Ethical Concerns](#ethical-concerns)
 
 ## Intro
 
@@ -35,7 +41,7 @@ The hidden layers lie in between the input and output layers. There can be as fe
 
 Each layer consists of several “nodes” that contain a “weight” and a “bias.” The weight is multiplied by the node’s input and the bias is added to produce the output at each layer.
 
-## Math
+## Mathematics of Neural Networks
 
 Now that we have a basic understanding of the neural network structure, how do these things actually work? In this section, we will introduce a few of the concepts that are key to training neural networks. We will explore how loss functions are used to measure the accuracy of neural networks, how optimizations like gradient descent are used to minimize the loss, and how activation functions are used to model complex relationships in the data.
 
@@ -189,7 +195,7 @@ When the filter “slides” across the image, it performs a function called a c
 
 An additional benefit of convolutional filters is that they reduce the dimensionality of these images. Images often contain thousands to millions of pixels which may each be its own node in the input layer. Being able to process this many values may be difficult and very timely on current hardware architecture. Convolutional filters, as well as other methods, help to reduce this high-dimensional input space by extracting meaningful features from the image and discarding less important information. By representing the image as a map of its features, convolutional filters help simplify the information from the image. This not only helps in managing the amount of computation but also detects the most relevant features for accurate classification. 
  
-## CNNs
+## Convolutional Neural Networks
 
 We can repeat this pattern many times trying out different filters. By using many convolutional filters together, neural networks can learn to recognize more complex patterns and higher level features. While the initial convolutional filters may have learned to recognize edges and curves, after passing through multiple layers, the network begins to learn more complex patterns like rectangles or circles which could represent wheels on a car or a bicycle. Eventually, it recognizes these complex patterns together with other detected features to identify actual objects within the image. The combination of these filters building on one another over many iterations gives the Convolutional Neural Network the ability to understand images and classify objects within them.
 
