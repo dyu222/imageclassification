@@ -184,7 +184,7 @@ When the filter “slides” across the image, it performs a function called a c
 
 ### Convolutional Filter Demo
 
-	An additional benefit of convolutional filters is that they reduce the dimensionality of these images. Images often contain thousands to millions of pixels which may each be its own node in the input layer. Being able to process this many values may be difficult and very timely on current hardware architecture. Convolutional filters, as well as other methods, help to reduce this high-dimensional input space by extracting meaningful features from the image and discarding less important information. By representing the image as a map of its features, convolutional filters help simplify the information from the image. This not only helps in managing the amount of computation but also detects the most relevant features for accurate classification. 
+An additional benefit of convolutional filters is that they reduce the dimensionality of these images. Images often contain thousands to millions of pixels which may each be its own node in the input layer. Being able to process this many values may be difficult and very timely on current hardware architecture. Convolutional filters, as well as other methods, help to reduce this high-dimensional input space by extracting meaningful features from the image and discarding less important information. By representing the image as a map of its features, convolutional filters help simplify the information from the image. This not only helps in managing the amount of computation but also detects the most relevant features for accurate classification. 
  
 ## CNNs
 
