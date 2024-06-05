@@ -4,9 +4,6 @@ title: What is Image Classification?
 permalink: classification
 ---
 
-## Image to copy structure later. delete after
-<img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/bean.jpg">
-
 ## Intro
 
 Have you ever wondered how Apple FaceID distinguishes between your face and someone else’s? Or how Tesla Autopilot cars see other cars on the road? Or possibly you’re wondering how your favorite social media app can identify and apply filters to your face to give you and your friends dog ears or a new hairstyle. The answer involves a field of computer science called Computer Vision. Computer Vision is a subfield of Artificial Intelligence that involves training computers to process and extract details from digital images in order to perform different tasks such as recognizing objects and faces, tracking movement, and more.
