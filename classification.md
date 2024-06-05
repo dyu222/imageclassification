@@ -59,11 +59,119 @@ The equation for BCE is:
 
 <img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/bce.jpeg">
 
-where \( N \) is the number of observations, \( i \) is the \( i \)-th observation, \( \hat{y}_i \) is the predicted probability of the observation being positive (on a scale of 0-1), and \( y_i \) is the actual label.
+Where 
+N
+N is the number of observations, 
+i
+i is the 
+i
+i-th observation, 
+y
+^
+i
+y
+^
+​	
+  
+i
+​	
+  is the predicted probability of the observation being positive (on a scale of 0-1), and 
+y
+i
+y 
+i
+​	
+  is the actual label.
 
-When we break down this equation, the left side \( y_i \log(\hat{y}) \) measures how well we predicted positive values and the right side \( (1-y_i) \log(1-\hat{y}) \) measures how well we predicted negative values.
+When we break down this equation, the left side 
+y
+i
+⋅
+log
+⁡
+(
+y
+^
+i
+)
+y 
+i
+​	
+ ⋅log( 
+y
+^
+​	
+  
+i
+​	
+ ) measures how well we predicted positive values, and the right side 
+(
+1
+−
+y
+i
+)
+⋅
+log
+⁡
+(
+1
+−
+y
+^
+i
+)
+(1−y 
+i
+​	
+ )⋅log(1− 
+y
+^
+​	
+  
+i
+​	
+ ) measures how well we predicted negative values.
 
-For example, if we correctly predicted an observation to be positive with a high probability, say 0.9, then we add \( -1 \cdot \log(0.9) + (0) \cdot \log(0.1) \approx 0.045 \) to our loss value. However, if we incorrectly predict a positive value as negative with a probability of 0.8 (this is a 0.2 probability of positive), then we add \( -1 \cdot \log(0.2) + (0) \cdot \log(0.8) \approx 0.698 \) to our loss value.
+For example, if we correctly predicted an observation to be positive with a high probability, say 0.9, then we add 
+−
+1
+⋅
+log
+⁡
+(
+0.9
+)
++
+0
+⋅
+log
+⁡
+(
+0.1
+)
+≈
+0.045
+−1⋅log(0.9)+0⋅log(0.1)≈0.045 to our loss value. However, if we incorrectly predict a positive value as negative with a probability of 0.8 (which corresponds to a 0.2 probability of being positive), then we add 
+−
+1
+⋅
+log
+⁡
+(
+0.2
+)
++
+0
+⋅
+log
+⁡
+(
+0.8
+)
+≈
+0.698
+−1⋅log(0.2)+0⋅log(0.8)≈0.698 to our loss value.
 
 This loss function rewards correct predictions that are confident (high probabilities) with low loss values, penalizes incorrect predictions with high loss values, and has a medium loss value for uncertain probabilities.
 
