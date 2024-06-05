@@ -3,6 +3,9 @@ layout: page
 title: What is Image Classification?
 permalink: classification
 ---
+# Table of Contents
+
+- [Intro](#intro)
 
 ## Intro
 
