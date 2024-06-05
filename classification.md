@@ -184,6 +184,8 @@ When the filter “slides” across the image, it performs a function called a c
 
 ### Convolutional Filter Demo
 
+	An additional benefit of convolutional filters is that they reduce the dimensionality of these images. Images often contain thousands to millions of pixels which may each be its own node in the input layer. Being able to process this many values may be difficult and very timely on current hardware architecture. Convolutional filters, as well as other methods, help to reduce this high-dimensional input space by extracting meaningful features from the image and discarding less important information. By representing the image as a map of its features, convolutional filters help simplify the information from the image. This not only helps in managing the amount of computation but also detects the most relevant features for accurate classification. 
+ 
 ## CNNs
 
 We can repeat this pattern many times trying out different filters. By using many convolutional filters together, neural networks can learn to recognize more complex patterns and higher level features. While the initial convolutional filters may have learned to recognize edges and curves, after passing through multiple layers, the network begins to learn more complex patterns like rectangles or circles which could represent wheels on a car or a bicycle. Eventually, it recognizes these complex patterns together with other detected features to identify actual objects within the image. The combination of these filters building on one another over many iterations gives the Convolutional Neural Network the ability to understand images and classify objects within them.
