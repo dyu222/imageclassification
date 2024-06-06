@@ -19,7 +19,7 @@ permalink: classification
 
    <input type="checkbox" id="checkbox1" name="checkbox1">
    <label for="checkbox1">They filter out unwanted colors in images</label><br>
-   <input type="checkbox" id="checkbox2" name="checkbox2" checked>
+   <input type="checkbox" id="checkbox2" name="checkbox2">
    <label for="checkbox2">They help identify specific patterns in images</label><br>
    <input type="checkbox" id="checkbox3" name="checkbox3">
    <label for="checkbox3">They add special effects to photos</label><br>
@@ -28,7 +28,7 @@ permalink: classification
 
    <input type="checkbox" id="checkbox4" name="checkbox1">
    <label for="checkbox1">Predicting what number is in a picture</label><br>
-   <input type="checkbox" id="checkbox5" name="checkbox2" checked>
+   <input type="checkbox" id="checkbox5" name="checkbox2">
    <label for="checkbox2">Predicting if an image is a cat or dog</label><br>
    <input type="checkbox" id="checkbox6" name="checkbox3">
    <label for="checkbox3">Predicting the weather forecast</label><br>
@@ -37,7 +37,7 @@ permalink: classification
 
    <input type="checkbox" id="checkbox7" name="checkbox1">
    <label for="checkbox1">The number of errors in the network</label><br>
-   <input type="checkbox" id="checkbox8" name="checkbox2" checked>
+   <input type="checkbox" id="checkbox8" name="checkbox2">
    <label for="checkbox2">The size of images processed by the network</label><br>
    <input type="checkbox" id="checkbox9" name="checkbox3">
    <label for="checkbox3">The accuracy of predictions made by the network</label><br>
