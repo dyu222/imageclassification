@@ -15,16 +15,19 @@ permalink: classification
 
 ### Test DELETE LATER
 
-1. What is the capital of France?
-   - [ ] Berlin
-   - [x] Paris
-   - [ ] London
-   - [ ] Rome
+1. What do convolutional filters do in image classification?
+   <input type="checkbox" id="checkbox1" name="checkbox1">
+   <label for="checkbox1">They filter out unwanted colors in images</label><br>
+   <input type="checkbox" id="checkbox2" name="checkbox2" checked>
+   <label for="checkbox2">They help identify specific patterns in images</label><br>
+   <input type="checkbox" id="checkbox3" name="checkbox3">
+   <label for="checkbox3">They add special effects to photos</label><br>
+
 
 <details>
   <summary>Solutions</summary>
-  1. What is the capital of France?
-     - Solution: The correct answer is Paris, the capital of France.
+   1. They help identify specific patterns in images
+   2.
 </details>
 
 
