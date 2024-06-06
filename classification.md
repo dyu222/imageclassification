@@ -233,6 +233,9 @@ When the filter “slides” across the image, it performs a function called a c
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+<center>
+<strong>Figure 3: </strong> Convolutional Filter Demo. -<a href="https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1">Irhum Shafkat, Towards Data Science</a>
+</center>
 
 An additional benefit of convolutional filters is that they reduce the dimensionality of these images. Images often contain thousands to millions of pixels which may each be its own node in the input layer. Being able to process this many values may be difficult and very timely on current hardware architecture. Convolutional filters, as well as other methods, help to reduce this high-dimensional input space by extracting meaningful features from the image and discarding less important information. By representing the image as a map of its features, convolutional filters help simplify the information from the image. This not only helps in managing the amount of computation but also detects the most relevant features for accurate classification. 
  
@@ -251,7 +254,7 @@ One notable and well known example of this includes an image of a panda. The CNN
 <img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/panda.jpeg">
 
 <center>
-<strong>Figure 1: </strong> Panda adversarial example. -<a href="https://openai.com/index/attacking-machine-learning-with-adversarial-examples/">OpenAI</a>
+<strong>Figure 1: </strong> Panda adversarial example. -<a href="https://openai.com/index/attacking-machine-learning-with-adversarial-examples/">Ian Goodfellow, Nicolas Papernot, Sandy Huang, Yan Duan, Pieter Abbeel, Jack Clark, OpenAI</a>
 </center>
 
 
@@ -259,7 +262,7 @@ While misclassifying an image of a panda may not be that big of a problem, simil
 
 <img class="mx-auto w-1/2" src="{{site.baseurl}}/assets/img/stopsign.jpeg">
 <center>
-<strong>Figure 2: </strong> Stop sign misclassifcation vulnerability. -<a href="https://insights.sei.cmu.edu/blog/the-challenge-of-adversarial-machine-learning/#:~:text=Even%20though%20the%20car%27s%20machine,adversarial%20attack%20on%20ML%20systems.">Carnegie Melon University</a>
+<strong>Figure 2: </strong> Stop sign misclassifcation vulnerability. -<a href="https://insights.sei.cmu.edu/blog/the-challenge-of-adversarial-machine-learning/#:~:text=Even%20though%20the%20car%27s%20machine,adversarial%20attack%20on%20ML%20systems.">MATT CHURILLA, NATHAN M. VANHOUDNOS, AND ROBERT W. BEVERIDGE, Carnegie Melon University</a>
 </center>
 
 ## Ethical Concerns
