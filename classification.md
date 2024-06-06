@@ -12,43 +12,7 @@ permalink: classification
 - [Convolutional Neural Networks](#convolutional-neural-networks)
 - [Adversarial Examples](#adversarial-examples)
 - [Ethical Concerns](#ethical-concerns)
-
-### Test move later
-
-1. What do convolutional filters do in image classification?
-
-   <input type="checkbox" id="checkbox1" name="checkbox1">
-   <label for="checkbox1">They filter out unwanted colors in images</label><br>
-   <input type="checkbox" id="checkbox2" name="checkbox2">
-   <label for="checkbox2">They help identify specific patterns in images</label><br>
-   <input type="checkbox" id="checkbox3" name="checkbox3">
-   <label for="checkbox3">They add special effects to photos</label><br>
-
-2. What is not an example of image classification?
-
-   <input type="checkbox" id="checkbox4" name="checkbox1">
-   <label for="checkbox1">Predicting what number is in a picture</label><br>
-   <input type="checkbox" id="checkbox5" name="checkbox2">
-   <label for="checkbox2">Predicting if an image is a cat or dog</label><br>
-   <input type="checkbox" id="checkbox6" name="checkbox3">
-   <label for="checkbox3">Predicting the weather forecast</label><br>
-
-3. What do loss functions help measure in neural networks?
-
-   <input type="checkbox" id="checkbox7" name="checkbox1">
-   <label for="checkbox1">The number of errors in the network</label><br>
-   <input type="checkbox" id="checkbox8" name="checkbox2">
-   <label for="checkbox2">The size of images processed by the network</label><br>
-   <input type="checkbox" id="checkbox9" name="checkbox3">
-   <label for="checkbox3">The accuracy of predictions made by the network</label><br>
-
-<details>
-  <summary>Solutions</summary>
-   1. They help identify specific patterns in images<br><br>
-   2. Predicting the weather forecast<br><br>
-   3. The accuracy of predictions made by the network<br><br>
-</details>
-
+- [Test your knowledge](#test-your-knowledge)
 
 ## Intro
 
@@ -263,3 +227,42 @@ While misclassifying an image of a panda may not be that big of a problem, simil
 Beyond misclassification, other problems persist. One problem includes bias in training data. For example, many early facial recognition models tended to perform much higher on caucasian and lighter skinned people and had high error rates on people of color. While this wasn’t an intentional feature, unrepresentative data has the potential to harm marginalized communities. This continues to be an issue with future developments of artificial intelligence and machine learning that must be addressed.
 
 Additionally, privacy invasion is another possible ethical issue. When used in surveillance and security systems, CNNs may track and analyze people’s movement and behavior without their knowledge or consent. Widespread access to this technology raises concerns about rights to privacy and ethical usage. As CNNs become more prevalent, it is important to ensure that these technologies are used responsibly and respect individual privacy rights. While CNNs have the power to lead the way in technology and innovation with image classification, it is essential to address the ethical concerns related to bias and privacy. Ensuring fairness and robustness in model training accuracy and implementing safeguards to protect privacy are critical steps toward a responsible and ethical use of neural networks in society.
+
+
+## Test your knowledge
+
+1. What do convolutional filters do in image classification?
+
+   <input type="checkbox" id="checkbox1" name="checkbox1">
+   <label for="checkbox1">They filter out unwanted colors in images</label><br>
+   <input type="checkbox" id="checkbox2" name="checkbox2">
+   <label for="checkbox2">They help identify specific patterns in images</label><br>
+   <input type="checkbox" id="checkbox3" name="checkbox3">
+   <label for="checkbox3">They add special effects to photos</label><br>
+
+2. What is not an example of image classification?
+
+   <input type="checkbox" id="checkbox4" name="checkbox1">
+   <label for="checkbox1">Predicting what number is in a picture</label><br>
+   <input type="checkbox" id="checkbox5" name="checkbox2">
+   <label for="checkbox2">Predicting if an image is a cat or dog</label><br>
+   <input type="checkbox" id="checkbox6" name="checkbox3">
+   <label for="checkbox3">Predicting the weather forecast</label><br>
+
+3. What do loss functions help measure in neural networks?
+
+   <input type="checkbox" id="checkbox7" name="checkbox1">
+   <label for="checkbox1">The number of errors in the network</label><br>
+   <input type="checkbox" id="checkbox8" name="checkbox2">
+   <label for="checkbox2">The size of images processed by the network</label><br>
+   <input type="checkbox" id="checkbox9" name="checkbox3">
+   <label for="checkbox3">The accuracy of predictions made by the network</label><br>
+
+<details>
+  <summary>Solutions</summary>
+   1. They help identify specific patterns in images<br><br>
+   2. Predicting the weather forecast<br><br>
+   3. The accuracy of predictions made by the network<br><br>
+</details>
+
+
