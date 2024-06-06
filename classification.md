@@ -24,11 +24,19 @@ permalink: classification
    <input type="checkbox" id="checkbox3" name="checkbox3">
    <label for="checkbox3">They add special effects to photos</label><br>
 
+2. What is not an example of image classification?
+
+   <input type="checkbox" id="checkbox4" name="checkbox1">
+   <label for="checkbox1">Predicting what number is in a picture</label><br>
+   <input type="checkbox" id="checkbox5" name="checkbox2" checked>
+   <label for="checkbox2">Predicting if an image is a cat or dog</label><br>
+   <input type="checkbox" id="checkbox6" name="checkbox3">
+   <label for="checkbox3">Predicting the weather forecast</label><br>
 
 <details>
   <summary>Solutions</summary>
    1. They help identify specific patterns in images
-   2.
+   2. Predicting the weather forecast
 </details>
 
 
