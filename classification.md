@@ -196,32 +196,32 @@ When the filter “slides” across the image, it performs a function called a c
 
 <div id="carouselExample4" class="carousel slide relative" data-bs-ride="carousel">
   <div class="carousel-inner relative w-full overflow-hidden">
-    <div class="carousel-item float-left w-full">
-      <img src="{{site.baseurl}}/assets/img/frame_0_delay-0.65s.jpg" class="block w-full" alt="First">
+    <div class="carousel-item active float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/frame_0_delay-0.65s.jpg" class="block w-full" alt="First Slide">
     </div>
     <div class="carousel-item float-left w-full">
-      <img src="{{site.baseurl}}/assets/img/frame_1_delay-0.65s.jpg" class="block w-full" alt="First">
+      <img src="{{site.baseurl}}/assets/img/frame_1_delay-0.65s.jpg" class="block w-full" alt="Second Slide">
     </div>
     <div class="carousel-item float-left w-full">
-      <img src="{{site.baseurl}}/assets/img/frame_2_delay-0.65s.jpg" class="block w-full" alt="First">
+      <img src="{{site.baseurl}}/assets/img/frame_2_delay-0.65s.jpg" class="block w-full" alt="Third Slide">
     </div>
     <div class="carousel-item float-left w-full">
-      <img src="{{site.baseurl}}/assets/img/frame_3_delay-0.65s.jpg" class="block w-full" alt="First">
+      <img src="{{site.baseurl}}/assets/img/frame_3_delay-0.65s.jpg" class="block w-full" alt="Third Slide">
     </div>
     <div class="carousel-item float-left w-full">
-      <img src="{{site.baseurl}}/assets/img/frame_4_delay-0.65s.jpg" class="block w-full" alt="First">
+      <img src="{{site.baseurl}}/assets/img/frame_4_delay-0.65s.jpg" class="block w-full" alt="Third Slide">
     </div>
     <div class="carousel-item float-left w-full">
-      <img src="{{site.baseurl}}/assets/img/frame_5_delay-0.65s.jpg" class="block w-full" alt="First">
+      <img src="{{site.baseurl}}/assets/img/frame_5_delay-0.65s.jpg" class="block w-full" alt="Third Slide">
     </div>
     <div class="carousel-item float-left w-full">
-      <img src="{{site.baseurl}}/assets/img/frame_6_delay-0.65s.jpg" class="block w-full" alt="First">
+      <img src="{{site.baseurl}}/assets/img/frame_6_delay-0.65s.jpg" class="block w-full" alt="Third Slide">
     </div>
     <div class="carousel-item float-left w-full">
-      <img src="{{site.baseurl}}/assets/img/frame_7_delay-0.65s.jpg" class="block w-full" alt="First">
+      <img src="{{site.baseurl}}/assets/img/frame_7_delay-0.65s.jpg" class="block w-full" alt="Third Slide">
     </div>
     <div class="carousel-item float-left w-full">
-      <img src="{{site.baseurl}}/assets/img/frame_8_delay-0.65s.jpg" class="block w-full" alt="First">
+      <img src="{{site.baseurl}}/assets/img/frame_8_delay-0.65s.jpg" class="block w-full" alt="Third Slide">
     </div>
   </div>
   <button class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
