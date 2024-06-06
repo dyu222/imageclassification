@@ -33,10 +33,22 @@ permalink: classification
    <input type="checkbox" id="checkbox6" name="checkbox3">
    <label for="checkbox3">Predicting the weather forecast</label><br>
 
+3. What do loss functions help measure in neural networks?
+
+   <input type="checkbox" id="checkbox7" name="checkbox1">
+   <label for="checkbox1">The number of errors in the network</label><br>
+   <input type="checkbox" id="checkbox8" name="checkbox2" checked>
+   <label for="checkbox2">The size of images processed by the network</label><br>
+   <input type="checkbox" id="checkbox9" name="checkbox3">
+   <label for="checkbox3">The accuracy of predictions made by the network</label><br>
+
 <details>
   <summary>Solutions</summary>
    1. They help identify specific patterns in images
+   
    2. Predicting the weather forecast
+
+   3. The accuracy of predictions made by the network
 </details>
 
 
