@@ -44,11 +44,9 @@ permalink: classification
 
 <details>
   <summary>Solutions</summary>
-   1. They help identify specific patterns in images
-   
-   2. Predicting the weather forecast
-
-   3. The accuracy of predictions made by the network
+   1. They help identify specific patterns in images<br><br>
+   2. Predicting the weather forecast<br><br>
+   3. The accuracy of predictions made by the network<br><br>
 </details>
 
 
