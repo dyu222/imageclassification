@@ -194,6 +194,46 @@ When the filter “slides” across the image, it performs a function called a c
 
 ### Convolutional Filter Demo
 
+<div id="carouselExample4" class="carousel slide relative" data-bs-ride="carousel">
+  <div class="carousel-inner relative w-full overflow-hidden">
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/frame_0_delay-0.65s.jpg" class="block w-full" alt="First">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/frame_1_delay-0.65s.jpg" class="block w-full" alt="First">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/frame_2_delay-0.65s.jpg" class="block w-full" alt="First">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/frame_3_delay-0.65s.jpg" class="block w-full" alt="First">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/frame_4_delay-0.65s.jpg" class="block w-full" alt="First">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/frame_5_delay-0.65s.jpg" class="block w-full" alt="First">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/frame_6_delay-0.65s.jpg" class="block w-full" alt="First">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/frame_7_delay-0.65s.jpg" class="block w-full" alt="First">
+    </div>
+    <div class="carousel-item float-left w-full">
+      <img src="{{site.baseurl}}/assets/img/frame_8_delay-0.65s.jpg" class="block w-full" alt="First">
+    </div>
+  </div>
+  <button class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+    <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
 An additional benefit of convolutional filters is that they reduce the dimensionality of these images. Images often contain thousands to millions of pixels which may each be its own node in the input layer. Being able to process this many values may be difficult and very timely on current hardware architecture. Convolutional filters, as well as other methods, help to reduce this high-dimensional input space by extracting meaningful features from the image and discarding less important information. By representing the image as a map of its features, convolutional filters help simplify the information from the image. This not only helps in managing the amount of computation but also detects the most relevant features for accurate classification. 
  
 ## Convolutional Neural Networks
