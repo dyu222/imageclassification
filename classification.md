@@ -13,9 +13,10 @@ permalink: classification
 - [Adversarial Examples](#adversarial-examples)
 - [Ethical Concerns](#ethical-concerns)
 
-### Test DELETE LATER
+### Test move later
 
 1. What do convolutional filters do in image classification?
+
    <input type="checkbox" id="checkbox1" name="checkbox1">
    <label for="checkbox1">They filter out unwanted colors in images</label><br>
    <input type="checkbox" id="checkbox2" name="checkbox2" checked>
