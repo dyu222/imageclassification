@@ -292,7 +292,7 @@ Additionally, privacy invasion is another possible ethical issue. When used in s
    <input type="checkbox" id="checkbox6" name="checkbox3">
    <label for="checkbox3">Predicting the weather forecast</label><br>
 
-3. What do loss functions help measure in neural networks?
+3. What do loss functions (such as mean squared error) help measure in neural networks?
 
    <input type="checkbox" id="checkbox7" name="checkbox1">
    <label for="checkbox1">The number of errors in the network</label><br>
