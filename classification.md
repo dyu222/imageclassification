@@ -234,7 +234,7 @@ When the filter “slides” across the image, it performs a function called a c
   </button>
 </div>
 <center>
-<strong>Figure 3: </strong> Convolutional Filter Demo. -<a href="https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1">Irhum Shafkat, Towards Data Science</a>
+<strong>Figure 3: </strong> Convolutional Filter Demo. At each step the filter calculates the product of the filter and the region of the image it is on and puts the sum in the feature map, then slides to the next region. -<a href="https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1">Irhum Shafkat, Towards Data Science</a>
 </center>
 
 An additional benefit of convolutional filters is that they reduce the dimensionality of these images. Images often contain thousands to millions of pixels which may each be its own node in the input layer. Being able to process this many values may be difficult and very timely on current hardware architecture. Convolutional filters, as well as other methods, help to reduce this high-dimensional input space by extracting meaningful features from the image and discarding less important information. By representing the image as a map of its features, convolutional filters help simplify the information from the image. This not only helps in managing the amount of computation but also detects the most relevant features for accurate classification. 
